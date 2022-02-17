@@ -20,7 +20,8 @@ public class Sort
       elements[minIndex] = temp;
     }
   }
-  
+
+  // Part A.  Which Sort is Which?
   public static void secondSortingAlgorithm(int[] elements)
   { 
     for (int j = 1; j < elements.length; j++)
@@ -41,7 +42,8 @@ public class Sort
   {
     /* TO BE IMPLEMENTED IN PART C */
   }
-  
+
+  // Part C.  Sorting a 1000-word list!
   public static void insertionSortWordList(ArrayList<String> words)
   {    
     /* TO BE IMPLEMENTED IN PART C */

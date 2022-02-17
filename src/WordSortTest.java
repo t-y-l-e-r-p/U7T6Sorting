@@ -23,7 +23,7 @@ public class WordSortTest
     System.out.println("Sorted:");
     System.out.println(allWords);
     
-    System.out.println("------- TESTING INSERTION SORT -------");
+    System.out.println("\n------- TESTING INSERTION SORT -------");
     ArrayList<String> allWords2 = new ArrayList<String>();
     
     // load words from words.txt into array list; see helper method below
@@ -45,7 +45,7 @@ public class WordSortTest
   {
     try
     {
-      Scanner input = new Scanner(new File("words.txt"));
+      Scanner input = new Scanner(new File("src\\words.txt"));
       while (input.hasNext())
       {
         String word = input.next();
